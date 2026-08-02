@@ -1,5 +1,7 @@
 #!/bin/bash
 
+osascript -e 'display notification "Running..." with title "mac_desktop_cleanliness.sh"'
+
 defaults write com.apple.finder CreateDesktop false
 
 sleep 1s
@@ -18,3 +20,4 @@ defaults write com.apple.finder CreateDesktop false
 sleep 1s # prevent lag by doing this too often
 
 done
+
