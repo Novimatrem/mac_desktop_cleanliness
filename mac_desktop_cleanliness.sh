@@ -20,7 +20,7 @@ defaults write com.apple.finder CreateDesktop false
 sleep 1s # prevent lag by doing this too often
 
 # debug test
-osascript -e 'display notification "it is still alive" with title "mac_desktop_cleanliness.sh"'
+#osascript -e 'display notification "it is still alive" with title "mac_desktop_cleanliness.sh"'
 
 done
 
